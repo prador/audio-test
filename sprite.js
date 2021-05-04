@@ -34,14 +34,6 @@ var Sprite = function(options) {
   self.sound = new Howl({
     src: options.src,
     sprite: options.sprite,
-    xhr: {
-      method: 'POST',
-      headers: {
-        'Access-Control-Allow-Origin':'https://audio-test-kar5249i9-suramprady.vercel.app'
-      },
-      withCredentials: true,
-      
-    }
   });
 
   // Setup a resize event and fire it to setup our sprite overlays.
@@ -139,7 +131,7 @@ Sprite.prototype = {
 var sprite = new Sprite({
   width: [78, 60, 62, 70, 62, 1895],
   left: [0, 342, 680, 1022, 1361],
-  src: ['https://github.com/prador/audio-test/blob/cebba1aa475aee66affc8ba8201e54441a4986ee/Tadow.mp3'],
+  src: ['/Tadow.mp3','https://github.com/prador/audio-test/blob/cebba1aa475aee66affc8ba8201e54441a4986ee/Tadow.mp3'],
   sprite: {
     one: [0, 1000],
     two: [2000, 2500],
