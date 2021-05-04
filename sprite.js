@@ -33,7 +33,15 @@ var Sprite = function(options) {
   // Create our audio sprite definition.
   self.sound = new Howl({
     src: options.src,
-    sprite: options.sprite
+    sprite: options.sprite,
+    xhr: {
+      method: 'POST',
+      headers: {
+        'Access-Control-Allow-Origin':'https://audio-test-kar5249i9-suramprady.vercel.app'
+      },
+      withCredentials: true,
+      
+    }
   });
 
   // Setup a resize event and fire it to setup our sprite overlays.
