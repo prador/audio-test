@@ -133,19 +133,19 @@ var sprite = new Sprite({
   left: [0, 342, 680, 1022, 1361],
   src: ['tadow.mp3'],
   sprite: {
-    one: [0, 450],
-    two: [2000, 250],
+    one: [0, 1000],
+    two: [2000, 2500],
     three: [4000, 350],
     four: [6000, 380],
-    five: [8000, 340],
-    beat: [10000, 11163]
+    five: [265000, 2000],
+    beat: [10000, 20000]
   },
   spriteMap: {
     sprite0: 'one',
     sprite1: 'two',
     sprite2: 'three',
     sprite3: 'four',
-    sprite4: 'five',
+    sprite4: 'tadow',
     sprite5: 'beat'
   }
 });
