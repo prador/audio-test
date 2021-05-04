@@ -131,7 +131,7 @@ Sprite.prototype = {
 var sprite = new Sprite({
   width: [78, 60, 62, 70, 62, 1895],
   left: [0, 342, 680, 1022, 1361],
-  src: ['tadow.mp3','https://github.com/prador/audio-test/blob/main/Tadow.mp3'],
+  src: ['tadow.mp3','https://github.com/prador/audio-test/blob/cebba1aa475aee66affc8ba8201e54441a4986ee/Tadow.mp3'],
   sprite: {
     one: [0, 1000],
     two: [2000, 2500],
