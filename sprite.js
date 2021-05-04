@@ -131,13 +131,13 @@ Sprite.prototype = {
 var sprite = new Sprite({
   width: [78, 60, 62, 70, 62, 1895],
   left: [0, 342, 680, 1022, 1361],
-  src: ['tadow.mp3'],
+  src: ['tadow.mp3','https://github.com/prador/audio-test/blob/main/Tadow.mp3'],
   sprite: {
     one: [0, 1000],
     two: [2000, 2500],
     three: [4000, 350],
     four: [6000, 380],
-    five: [265000, 2000],
+    tadow: [265000, 2000],
     beat: [10000, 20000]
   },
   spriteMap: {
